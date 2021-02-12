@@ -1,0 +1,31 @@
+{
+  "useTaobaoRegistry": false,
+  "packageManager": "yarn",
+  "latestVersion": "4.5.11",
+  "lastChecked": 1611741632811,
+  "presets": {
+    "client-app-template": {
+      "useConfigFiles": true,
+      "plugins": {
+        "@vue/cli-plugin-babel": {},
+        "@vue/cli-plugin-typescript": {
+          "classComponent": true,
+          "useTsWithBabel": true
+        },
+        "@vue/cli-plugin-router": {
+          "historyMode": true
+        },
+        "@vue/cli-plugin-vuex": {},
+        "@vue/cli-plugin-eslint": {
+          "config": "prettier",
+          "lintOn": [
+            "save"
+          ]
+        },
+        "@vue/cli-plugin-unit-jest": {}
+      },
+      "vueVersion": "2",
+      "cssPreprocessor": "node-sass"
+    }
+  }
+}
